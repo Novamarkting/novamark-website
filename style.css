@@ -1,0 +1,18 @@
+/* Custom fonts, colors, hover effects */
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+button {
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: #1E40AF; /* Tailwind blue-900 */
+  box-shadow: 0 0 0 3px rgba(30, 64, 175, 0.3);
+}
